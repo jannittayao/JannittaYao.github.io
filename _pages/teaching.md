@@ -3,7 +3,8 @@ layout: page
 permalink: /teaching/
 title: teaching
 description: Course materials from the classes that I have taught.
-nav: true
+nav: false
+published: false
 nav_order: 6
 horizontal: false
 ---

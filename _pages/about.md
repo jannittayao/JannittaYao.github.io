@@ -2,15 +2,14 @@
 layout: about
 title: about
 permalink: /
-subtitle: Ph.D. Candidate in Applied Mathematics, Dartmouth College. Game theory, moral alignment, and scalable oversight.
+subtitle: Ph.D. Candidate in Earth and Planetary Sciences, Dartmouth College
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Office 244</p>
-    <p>Kemeny Hall, Dartmouth College</p>
+    <p>Fairchild Hall, Dartmouth College</p>
 
 selected_papers: False # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -26,17 +25,20 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a Ph.D. candidate in applied mathematics at Dartmouth College, where I study game theory and artificial intelligence (AI). In my game-theory research I model social interactions by reducing complex networks to concise, tractable representations. These models help explain and predict phenomena across political science, AI, evolutionary ecology, and business. My game-theory work focuses on several related themes:
+I am a PhD candidate in the [Department of Earth and Planetary Sciences](https://earthsciences.dartmouth.edu/) at Dartmouth College. I hold a BA in Geosciences and Computer Science from Wellesley College. My PhD dissertation research, which is funded through a NSF Graduate Research Fellowship, seeks to understand the geochemical evolution of Earth's continental crust from the Archean to the Paleozoic using thermodynamic modeling and geochronology. I approach these questions from a field, lab, and computational perspective.
 
-- **Influence and allocation games.** Models of spatial competition in which players allocate influence across a space to secure limited resources. My thesis introduces the [_influencer's game_](https://markslovett.github.io/InflGame/), where each player's influence is centered on its position, making position a strategy the player can alter. Examples include political campaigns (candidates competing for votes), ecological competition (species competing for niches), and the learning dynamics of [mixture-of-experts gating](https://arxiv.org/abs/1701.06538) and [ensembles of language models](https://arxiv.org/abs/2502.18036).
-- **Evolutionary game theory.** The study of how strategies evolve in populations. By reducing complex population dynamics to tractable mathematical models, evolutionary game theory yields accurate predictions of agent behavior and has applications in ecology (for example, [Tilman et al.](https://www.nature.com/articles/s41467-020-14531-6)), cooperation studies (for example, [Traulsen et al.](https://royalsocietypublishing.org/doi/full/10.1098/rstb.2021.0508)), decision making, and AI–human cooperation.
+I am currently looking for post-doctoral positions. Please reach out via email if you would like to chat! 
 
-In AI, I study the incentive structures and learning environments that shape agent behavior: essentially, which "games" drive learning and why. I investigate how formally specified objectives influence learning dynamics and emergent strategies in both simulated and real-world settings, with most of my work in large language models and multi-agent reinforcement learning. The reason to characterize these games is safety rather than performance. Failure modes such as collusion, deception, and reward hacking are equilibrium properties rather than accidents of a particular training run, so an incentive-level account tells us which failures a system is being pushed toward before we have to catch them in evaluation.
+**Research Interests**:
 
-This runs in two directions. On the reward-design side, I work with Elizaveta Tennant through the [MARS program](https://caish.org/mars) on moral alignment for LLM agents, extending her framework of explicitly specified intrinsic rewards ([paper](https://arxiv.org/abs/2410.01639)). On the oversight side, I work with [Soroush Vosoughi](https://www.cs.dartmouth.edu/~soroush/) on ensemble and router dynamics for language models, using the influencer's game as a lens on scalable oversight. <!-- TODO: link to the ensemble project once public -->
+- **Geochemical Evolution of Continental Crust** 
 
-Combining insights from AI and game theory has major applications for AI–AI, human–human, and especially human–AI interactions. I think this matters urgently. As systems become more capable and more autonomous, misalignment becomes harder to catch after the fact, and game theory is unusually well suited to the problem because it reasons about behavior through incentives. That lets us construct the equilibria we want rather than only measure the dispositions a trained model happens to arrive at. Two pieces that frame the problems I work on: Redwood Research on [the case for ensuring that powerful AIs are controlled](https://blog.redwoodresearch.org/p/the-case-for-ensuring-that-powerful) and the Cooperative AI Foundation's [multi-agent risks report](https://arxiv.org/abs/2502.14143).
+The geochemical evolution of Earth's continental crust over its 4.56 billion year history is a reflection of surface heat loss and the decrease in radiogenic heat-producing isotopes. This change in chemistry is prominently observed in the oldest preserved continental crust from the Archean. While the chemistry of Archean continental crust has been well characterized, its petrogenesis remains enigmatic. In my dissertation, I have developed a Bayesian inverse model to calculate the possible range of P–T paths and starting H<sub>2</sub>O compositions through which sequential fractionation and equilibrium melt differentiation may produce the observed differentiation trends preserved in Archean continental crust.
 
-Beyond research, I have thoroughly enjoyed teaching at Dartmouth. I design scalable, technology-enabled course frameworks and curricula that improve delivery and student experience. My teaching emphasizes clear learning objectives, reproducible assignments, and practical tools that make courses easier to run and extend. I have five years of TA experience across 12 courses at two institutions, and I have independently taught two courses on evolutionary game theory.
+- **Petrogenesis of the Needle Mountains, CO** 
 
-Outside of academics, I am a senior member of [Amifore Consulting and Management LLC](https://www.amifore.com/), a startup delivering ethical consulting solutions to emerging businesses. I work in AI and innovation consulting for clients internationally, including in Switzerland, implementing strategic project management systems and building AI-assisted workflows. This work has sharpened my sense of how AI research translates into practice, and of what responsible deployment actually asks of a small organization.
+The ~1.7 Ga Twilight trondhjemitic gneiss in the Needle Mountains in SW Colorado is anomalously young compared to its Archean-aged counterparts. Sodium-rich trondhjemites are rarely produced after the Archean, following a sharp decline in Na/K ratios of felsic magmas across the Archean-Proterozoic boundary. The petrogenesis of the Twilight trondhjemite remains unclear, with the tectonic settings of its petrogenesis ranging from a metamorphosed volcaniclastic sequence to a single contemporaneous pluton. My research uses geochemistry and U-Pb zircon SIMS geochronology to better constrain the emplacement history of this unit. 
+
+- **Extent of the Alleghanian Orogeny in New England**
+
+The traditional model of the Appalachian orogeny in New England attributes the majority of metamorphism and deformation in the region to the accretion of Avalon during the Acadian orogeny, with minimal impact from the accretion of Gondwana during the Alleghanian. Although Alleghanian-aged metamorphism has been recognized in southern New England (CT/RI), the nature of the Alleghanian metamorphism and deformation in central New England (MA) is not well constrained. My research, which was done in part at the [Boston College Center for Isotope Geochemistry](https://www.bc.edu/bc-web/research/sites/vice-provost-for-research/about/research-facilities/isotope-geochemistry.html), aims to better constrain extent and grade of Alleghanian metamorphism through garnet Sm-Nd geochronology, phase equilibria modeling, and QuiG Raman inclusion barometry.

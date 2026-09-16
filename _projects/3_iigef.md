@@ -1,12 +1,11 @@
 ---
 layout: page
-title: InflGames
-description: A Python package developed for my thesis to study the influencer's game using multi-agent reinforcement learning (MARL) and adaptive dynamics. The package enables users to run experiments with custom games and reproduce results from the paper.
-img: assets/img/InflGames.png
-redirect: https://markslovett.github.io/InflGame/
-importance: 1
-category: work
-related_publications: true
+title: Irving Institute Graduate Fellowship
+description: I was part of the inaugural cohort of graduate fellows in AY24-25, and collaborated with other graduate students to work on a project about potential impacts of the energy transition on climate.
+img: assets/img/iigef-presentation.jpg
+redirect: https://irving.dartmouth.edu/news/2025/05/igniting-ideas-graduate-energy-fellows-conclude-year-exploration-and-discovery
+importance: 3
+# category: work
 ---
 
 Every project has a feature showcase page.

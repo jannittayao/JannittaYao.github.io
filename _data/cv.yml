@@ -1,97 +1,128 @@
 - title: General Information
   type: map
   contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+    - name: Name
+      value: Jannitta Yao
+    - name: Email
+      value: jannitta.yao.gr@dartmouth.edu
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD Candidate
+      institution: Dartmouth College
+      year: 2022-present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Teaching assistant for EARS 1 (How the Earth Works), EARS 59 (Igneous and Metamorphic Petrology), and the Dartmouth field program (the "Stretch")
+    - title: Bachelor of Arts
+      institution: Wellesley College
+      year: 2021
       description:
-        - Description 1.
-        - Description 2.
+        - Geosciences and Computer Science
+        - Durant Scholars Magna Cum Laude (GPA 3.75/4.0)
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Post-Baccalaureate Research Assistant
+      institution: Wellesley College
+      year: 09/2021 - 07/2022
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Researched metamorphic and tectonic history of the Nashoba terrane in MA and of New York City with Professor Adrian Castro
+        - Assisted with department collections work
+        - Provided class and field trip support for GEOS 203 (Earth Materials) and GEOS 317 (Igneous and Metamorphic Petrology)
+    - title: Undergraduate Researcher 
+      institution: Wellesley College
+      year: 08/2020 - 07/2021
       description:
-        - Description 1.
-        - Description 2.
+        - Modelled effects of overstepped garnet nucleation on subduction zone devolitization. 
+        - Used a combination of petrography and thermodynamic modelling to constrain P–T conditions of metamorphic events in the Nashoba Terrane, MA.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+    - title: Peer Tutor
+      institution: Wellesley College
+      year: 08/2020-07/2021
+      description: 
+        - GEOS 101/102 (The Dynamic Earth)
+        - CS 251 (Theory of Programming Languages)
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
+    - title: Software Engineering Intern
+      institution: Google
+      year: 05/2020 - 08/2020
+      description: 
+        - Trained Tensorflow ML model to predict throughput for Youtube's edge streaming servers.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Undergraduate Research Assistant
+      institution: MIT
+      year: 02/2019-04/2020
+      description: 
+        - Created and refined a Julia-based biogeochemical model of plankton in the global oceans for the MIT Darwin Project.
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+# - title: Open Source Projects
+#   type: time_table
+#   contents:
+#     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+#       year: 2015-now
+#       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2026
+      items: 
+        - John A. Ebers 1961 Memorial Prize - Outstanding Graduate TA
+    - year: 2025
+      items: 
+        - AGeS3-Grad Geochronology Research Grant
+        - GSA Graduate Research Grant 2025
+    - year: 2024
+      items: 
+        - NSF Graduate Research Fellowship
+        - GSA Robert D. Hatcher Research Award
+    - year: 2022
+      items: 
+        - GSA MGPV Travel Grant
+    - year: 2021
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+        - Harold E. Andrews Award
 
-- title: Academic Interests
+- title: Publications
+  type: list
+  contents:
+    - <b>Yao, J.*</b>, Keller, C.B., in review. A Bayesian Inversion for the Generation of Archean Felsic Crust. G-cubed.
+    - <b>Yao, J.*</b>, Castro, A.E., Roberts, N.M. Wolfe, O.M., Brunet, I.M., Vasey, D.A., (2023). Phase Equilibria Evidence for Intermediate P/T Metamorphism in the Nashoba Terrane and Implications for Acadian Tectonics in Ganderia. Lithosphere.
+
+- title: Selected Conference Presentations
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: GSA 2026
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+      - <b>Yao, J.*</b>, Pansera, G., Castro, A.E., Brigham, J.M., Lee, A.S., Bista, D., Keller, C.B., Baxter, E.F., Strauss, J.V., New Constraints on Alleghanian (300 Ma) Amphibolite Facies Metamorphism in Central New England from Garnet Sm-Nd Petrochronology.
+    - title: Goldschmidt 2026
+      items: 
+      - <b>Yao, J.*</b>, Keller, C.B., A Bayesian Approach to the Generation of Archean Continental Crust 
+    - title: GSA 2025
+      items: 
+      - <b>Yao, J.*</b>, Keller, C.B., The Petrogenesis of the 1.7 Ga Twilight Trondhjemite in the Needle Mountains, CO. (poster)
+    - title: GSA 2022
+      items: 
+      - <b>Yao, J.*</b>, Castro, A.E., Brunet, I.M., Roberts, N.M., Wolfe, O.M., Kuiper, Y.D., Hepburn, J.C. ”Barrovian” Metamorphism in the Nashoba Terrane - Evidence from Combined Phase Equilibria Modeling, Geothermobarometry, and Petrographic Analysis. (poster)
+    - title: NE-GSA 2021
       items:
-        - Description 1.
-        - Description 2.
+      - <b>Yao, J.*</b>, Castro, A.E., Kohn, M.J., Spear, F.S. Garnet nucleation overstepping - A potential mechanism for fluid production within the seismic-aseismic transition in subduction zones. (poster)
+
+
+# - title: Academic Interests
+#   type: nested_list
+#   contents:
+#     - title: Computational Geochemistry
+#       items: 
+#         - Ch 1 of my dissertation involves the creation of an inverse Bayesian model that solves for the starting conditions of Archean continental crust.
+#         - I am a frequent contributor to <a href="https://github.com/brenhinkeller/StatGeochem.jl">StatGeochem.jl</a> 
+#     - title: Thermodynamic Modeling
+#       items:
+#         - Extensive experience with thermodynamic forward models Perple_X and GIBBS
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Hiking, Reading, Video Games

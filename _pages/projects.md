@@ -1,11 +1,11 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
-description: My current project and upcoming work.
+title: community
+permalink: /community/
+description: I am a strong believer in engaging with and building communities at the institutional, local, and national levels. Here are some examples of work that I have done and communities that I have been a part of during my time at Dartmouth.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+# display_categories: [work, fun]
 horizontal: false
 ---
 
