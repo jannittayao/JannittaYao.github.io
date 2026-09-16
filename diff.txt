@@ -1,131 +1,292 @@
-diff --git a/_config.yml b/_config.yml
-index f36ef57..b7d9181 100644
---- a/_config.yml
-+++ b/_config.yml
-@@ -4,10 +4,10 @@
+diff --git a/_data/cv.yml b/_data/cv.yml
+index 52ab1b9..b43065e 100644
+--- a/_data/cv.yml
++++ b/_data/cv.yml
+@@ -31,30 +31,30 @@
+         - Researched metamorphic and tectonic history of the Nashoba terrane in MA and of New York City with Professor Adrian Castro
+         - Assisted with department collections work
+         - Provided class and field trip support for GEOS 203 (Earth Materials) and GEOS 317 (Igneous and Metamorphic Petrology)
+-    - title: Undergraduate Researcher 
++    - title: Undergraduate Researcher
+       institution: Wellesley College
+       year: 08/2020 - 07/2021
+       description:
+-        - Modelled effects of overstepped garnet nucleation on subduction zone devolitization. 
++        - Modelled effects of overstepped garnet nucleation on subduction zone devolitization.
+         - Used a combination of petrography and thermodynamic modelling to constrain P–T conditions of metamorphic events in the Nashoba Terrane, MA.
  
- title: blank # the website title (if blank, full name will be used instead)
- first_name: Mark
--middle_name: 
-+middle_name:
- last_name: Lovett
- contact_note: >
--  Reach out via email 
-+  Reach out via email
- description: > # the ">" symbol means to ignore newlines until "footer_text:"
-   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
- footer_text: >
-@@ -19,7 +19,7 @@ lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
- icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+     - title: Peer Tutor
+       institution: Wellesley College
+       year: 08/2020-07/2021
+-      description: 
++      description:
+         - GEOS 101/102 (The Dynamic Earth)
+         - CS 251 (Theory of Programming Languages)
  
- url: https://MarksLovett.github.io # the base hostname & protocol for your site
--baseurl:  # the subpath of your site, e.g. /blog/. Leave blank for root
-+baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
- last_updated: false # set to true if you want to display last updated in the footer
- impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
- back_to_top: true # set to false to disable the back to top button
-@@ -73,7 +73,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
+     - title: Software Engineering Intern
+       institution: Google
+       year: 05/2020 - 08/2020
+-      description: 
++      description:
+         - Trained Tensorflow ML model to predict throughput for Youtube's edge streaming servers.
  
- # For Google Analytics, see https://support.google.com/analytics/answer/10447272?hl=en&ref_topic=14088998&sjid=5129943941510317771-SA#zippy=%2Cgoogle-sites
- # and follow the instructions for Google Sites. You will need to create a Google Analytics property and copy the Google tag ID.
--google_analytics: 'G-SS85HED103' # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
-+google_analytics: "G-SS85HED103" # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
- cronitor_analytics: # cronitor RUM analytics site ID (format: XXXXXXXXX)
- pirsch_analytics: # your Pirsch analytics site ID (length 32 characters)
- openpanel_analytics: # your Openpanel analytics client ID (format: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX)
+     - title: Undergraduate Research Assistant
+       institution: MIT
+       year: 02/2019-04/2020
+-      description: 
++      description:
+         - Created and refined a Julia-based biogeochemical model of plankton in the global oceans for the MIT Darwin Project.
+ 
+ # - title: Open Source Projects
+@@ -68,18 +68,18 @@
+   type: time_table
+   contents:
+     - year: 2026
+-      items: 
++      items:
+         - John A. Ebers 1961 Memorial Prize - Outstanding Graduate TA
+     - year: 2025
+-      items: 
++      items:
+         - AGeS3-Grad Geochronology Research Grant
+         - GSA Graduate Research Grant 2025
+     - year: 2024
+-      items: 
++      items:
+         - NSF Graduate Research Fellowship
+         - GSA Robert D. Hatcher Research Award
+     - year: 2022
+-      items: 
++      items:
+         - GSA MGPV Travel Grant
+     - year: 2021
+       items:
+@@ -96,28 +96,27 @@
+   contents:
+     - title: GSA 2026
+       items:
+-      - <b>Yao, J.*</b>, Pansera, G., Castro, A.E., Brigham, J.M., Lee, A.S., Bista, D., Keller, C.B., Baxter, E.F., Strauss, J.V., New Constraints on Alleghanian (300 Ma) Amphibolite Facies Metamorphism in Central New England from Garnet Sm-Nd Petrochronology.
++        - <b>Yao, J.*</b>, Pansera, G., Castro, A.E., Brigham, J.M., Lee, A.S., Bista, D., Keller, C.B., Baxter, E.F., Strauss, J.V., New Constraints on Alleghanian (300 Ma) Amphibolite Facies Metamorphism in Central New England from Garnet Sm-Nd Petrochronology.
+     - title: Goldschmidt 2026
+-      items: 
+-      - <b>Yao, J.*</b>, Keller, C.B., A Bayesian Approach to the Generation of Archean Continental Crust 
++      items:
++        - <b>Yao, J.*</b>, Keller, C.B., A Bayesian Approach to the Generation of Archean Continental Crust
+     - title: GSA 2025
+-      items: 
+-      - <b>Yao, J.*</b>, Keller, C.B., The Petrogenesis of the 1.7 Ga Twilight Trondhjemite in the Needle Mountains, CO. (poster)
++      items:
++        - <b>Yao, J.*</b>, Keller, C.B., The Petrogenesis of the 1.7 Ga Twilight Trondhjemite in the Needle Mountains, CO. (poster)
+     - title: GSA 2022
+-      items: 
+-      - <b>Yao, J.*</b>, Castro, A.E., Brunet, I.M., Roberts, N.M., Wolfe, O.M., Kuiper, Y.D., Hepburn, J.C. ”Barrovian” Metamorphism in the Nashoba Terrane - Evidence from Combined Phase Equilibria Modeling, Geothermobarometry, and Petrographic Analysis. (poster)
++      items:
++        - <b>Yao, J.*</b>, Castro, A.E., Brunet, I.M., Roberts, N.M., Wolfe, O.M., Kuiper, Y.D., Hepburn, J.C. ”Barrovian” Metamorphism in the Nashoba Terrane - Evidence from Combined Phase Equilibria Modeling, Geothermobarometry, and Petrographic Analysis. (poster)
+     - title: NE-GSA 2021
+       items:
+-      - <b>Yao, J.*</b>, Castro, A.E., Kohn, M.J., Spear, F.S. Garnet nucleation overstepping - A potential mechanism for fluid production within the seismic-aseismic transition in subduction zones. (poster)
+-
++        - <b>Yao, J.*</b>, Castro, A.E., Kohn, M.J., Spear, F.S. Garnet nucleation overstepping - A potential mechanism for fluid production within the seismic-aseismic transition in subduction zones. (poster)
+ 
+ # - title: Academic Interests
+ #   type: nested_list
+ #   contents:
+ #     - title: Computational Geochemistry
+-#       items: 
++#       items:
+ #         - Ch 1 of my dissertation involves the creation of an inverse Bayesian model that solves for the starting conditions of Archean continental crust.
+-#         - I am a frequent contributor to <a href="https://github.com/brenhinkeller/StatGeochem.jl">StatGeochem.jl</a> 
++#         - I am a frequent contributor to <a href="https://github.com/brenhinkeller/StatGeochem.jl">StatGeochem.jl</a>
+ #     - title: Thermodynamic Modeling
+ #       items:
+ #         - Extensive experience with thermodynamic forward models Perple_X and GIBBS
 diff --git a/_pages/about.md b/_pages/about.md
-index ec0b96d..f49627c 100644
+index ecb1fb8..ca4cbe2 100644
 --- a/_pages/about.md
 +++ b/_pages/about.md
-@@ -28,15 +28,15 @@ latest_posts:
+@@ -27,18 +27,18 @@ latest_posts:
  
- I am a Ph.D. candidate in applied mathematics at Dartmouth College, where I study game theory and artificial intelligence (AI). In my game-theory research I model social interactions by reducing complex networks to concise, tractable representations. These models help explain and predict phenomena across political science, AI, evolutionary ecology, and business. My game-theory work focuses on several related themes:
+ I am a PhD candidate in the [Department of Earth and Planetary Sciences](https://earthsciences.dartmouth.edu/) at Dartmouth College. I hold a BA in Geosciences and Computer Science from Wellesley College. My PhD dissertation research, which is funded through a NSF Graduate Research Fellowship, seeks to understand the geochemical evolution of Earth's continental crust from the Archean to the Paleozoic using thermodynamic modeling and geochronology. I approach these questions from a field, lab, and computational perspective.
  
--- **Influence and allocation games.** Models of competition for limited resources in which players exert influence to secure them. My thesis introduces the [*influencer's game*](https://markslovett.github.io/InflGame/), in which each player's influence is centered on its position in space, so position itself becomes a strategy. Examples include political campaigns (candidates competing for votes) and platform competition for users; similar dynamics arise in machine-learning settings where agents compete for attention or data.
-+- **Influence and allocation games.** Models of competition for limited resources in which players exert influence to secure them. My thesis introduces the [_influencer's game_](https://markslovett.github.io/InflGame/), in which each player's influence is centered on its position in space, so position itself becomes a strategy. Examples include political campaigns (candidates competing for votes) and platform competition for users; similar dynamics arise in machine-learning settings where agents compete for attention or data.
- - **Evolutionary game theory.** The study of how strategies evolve in populations. By reducing complex population dynamics to tractable mathematical models, evolutionary game theory yields accurate predictions of agent behavior and has applications in ecology (for example, [Tilman et al.](https://www.nature.com/articles/s41467-020-14531-6)), cooperation studies (for example, [Traulsen et al.](https://royalsocietypublishing.org/doi/full/10.1098/rstb.2021.0508)), decision making, and AI–human cooperation.
+-I am currently looking for post-doctoral positions. Please reach out via email if you would like to chat! 
++I am currently looking for post-doctoral positions. Please reach out via email if you would like to chat!
  
- In AI, I study the incentive structures and learning environments that shape agent behavior: essentially, which "games" drive learning and why. I investigate how formally specified objectives influence learning dynamics and emergent strategies in both simulated and real-world settings, with most of my work in large language models and multi-agent reinforcement learning. The reason to characterize these games is safety rather than performance. Failure modes such as collusion, deception, and reward hacking are equilibrium properties rather than accidents of a particular training run, so an incentive-level account tells us which failures a system is being pushed toward before we have to catch them in evaluation.
+ **Research Interests**:
  
- This runs in two directions. On the reward-design side, I work with Elizaveta Tennant through the [MARS program](https://caish.org/mars) on moral alignment for LLM agents, extending her framework of explicitly specified intrinsic rewards ([paper](https://arxiv.org/abs/2410.01639)). On the oversight side, I work with [Soroush Vosoughi](https://www.cs.dartmouth.edu/~soroush/) on ensemble and router dynamics for language models, using the influencer's game as a lens on scalable oversight. <!-- TODO: link to the ensemble project once public -->
+-- **Geochemical Evolution of Continental Crust** 
++- **Geochemical Evolution of Continental Crust**
  
--Combining insights from AI and game theory has major applications for AI–AI, human–human, and especially human–AI interactions. I think this matters urgently. As systems become more capable and more autonomous, misalignment becomes harder to catch after the fact, and game theory is unusually well suited to the problem because it reasons about behavior through incentives. That lets us construct the equilibria we want rather than only measure the dispositions a trained model happens to arrive at. Two of my favorite cases for AI safety and game theory: Redwood Research on [the case for ensuring that powerful AIs are controlled](https://blog.redwoodresearch.org/p/the-case-for-ensuring-that-powerful) and the Cooperative AI Foundation's [multi-agent risks report](https://arxiv.org/abs/2502.14143);.. 
-+Combining insights from AI and game theory has major applications for AI–AI, human–human, and especially human–AI interactions. I think this matters urgently. As systems become more capable and more autonomous, misalignment becomes harder to catch after the fact, and game theory is unusually well suited to the problem because it reasons about behavior through incentives. That lets us construct the equilibria we want rather than only measure the dispositions a trained model happens to arrive at. Two of my favorite cases for AI safety and game theory: Redwood Research on [the case for ensuring that powerful AIs are controlled](https://blog.redwoodresearch.org/p/the-case-for-ensuring-that-powerful) and the Cooperative AI Foundation's [multi-agent risks report](https://arxiv.org/abs/2502.14143);..
+ The geochemical evolution of Earth's continental crust over its 4.56 billion year history is a reflection of surface heat loss and the decrease in radiogenic heat-producing isotopes. This change in chemistry is prominently observed in the oldest preserved continental crust from the Archean. While the chemistry of Archean continental crust has been well characterized, its petrogenesis remains enigmatic. In my dissertation, I have developed a Bayesian inverse model to calculate the possible range of P–T paths and starting H<sub>2</sub>O compositions through which sequential fractionation and equilibrium melt differentiation may produce the observed differentiation trends preserved in Archean continental crust.
  
- Beyond research, I have thoroughly enjoyed teaching at Dartmouth. I design scalable, technology-enabled course frameworks and curricula that improve delivery and student experience. My teaching emphasizes clear learning objectives, reproducible assignments, and practical tools that make courses easier to run and extend. I have five years of TA experience across 12 courses at two institutions, and I have independently taught two courses on evolutionary game theory.
+-- **Petrogenesis of the Needle Mountains, CO** 
++- **Petrogenesis of the Needle Mountains, CO**
  
--Outside of academics, I am a senior member of [Amifore Consulting and Management LLC](https://www.amifore.com/), a startup delivering ethical consulting solutions to emerging businesses. I work in AI and innovation consulting for clients internationally, including in Switzerland, implementing strategic project management systems and building AI-assisted workflows. This work has sharpened my sense of how AI research translates into practice, and of what responsible deployment actually asks of a small organization.
+-The ~1.7 Ga Twilight trondhjemitic gneiss in the Needle Mountains in SW Colorado is anomalously young compared to its Archean-aged counterparts. Sodium-rich trondhjemites are rarely produced after the Archean, following a sharp decline in Na/K ratios of felsic magmas across the Archean-Proterozoic boundary. The petrogenesis of the Twilight trondhjemite remains unclear, with the tectonic settings of its petrogenesis ranging from a metamorphosed volcaniclastic sequence to a single contemporaneous pluton. My research uses geochemistry and U-Pb zircon SIMS geochronology to better constrain the emplacement history of this unit. 
++The ~1.7 Ga Twilight trondhjemitic gneiss in the Needle Mountains in SW Colorado is anomalously young compared to its Archean-aged counterparts. Sodium-rich trondhjemites are rarely produced after the Archean, following a sharp decline in Na/K ratios of felsic magmas across the Archean-Proterozoic boundary. The petrogenesis of the Twilight trondhjemite remains unclear, with the tectonic settings of its petrogenesis ranging from a metamorphosed volcaniclastic sequence to a single contemporaneous pluton. My research uses geochemistry and U-Pb zircon SIMS geochronology to better constrain the emplacement history of this unit.
+ 
+ - **Extent of the Alleghanian Orogeny in New England**
+ 
+-The traditional model of the Appalachian orogeny in New England attributes the majority of metamorphism and deformation in the region to the accretion of Avalon during the Acadian orogeny, with minimal impact from the accretion of Gondwana during the Alleghanian. Although Alleghanian-aged metamorphism has been recognized in southern New England (CT/RI), the nature of the Alleghanian metamorphism and deformation in central New England (MA) is not well constrained. My research, which was done in part at the [Boston College Center for Isotope Geochemistry](https://www.bc.edu/bc-web/research/sites/vice-provost-for-research/about/research-facilities/isotope-geochemistry.html), aims to better constrain extent and grade of Alleghanian metamorphism through garnet Sm-Nd geochronology, phase equilibria modeling, and QuiG Raman inclusion barometry.
 \ No newline at end of file
-+Outside of academics, I am a senior member of [Amifore Consulting and Management LLC](https://www.amifore.com/), a startup delivering ethical consulting solutions to emerging businesses. I work in AI and innovation consulting for clients internationally, including in Switzerland, implementing strategic project management systems and building AI-assisted workflows. This work has sharpened my sense of how AI research translates into practice, and of what responsible deployment actually asks of a small organization.
-diff --git a/_pages/google414fd2a08fff7a9d.html b/_pages/google414fd2a08fff7a9d.html
-index a29c66e..934556c 100644
---- a/_pages/google414fd2a08fff7a9d.html
-+++ b/_pages/google414fd2a08fff7a9d.html
-@@ -1 +1 @@
--google-site-verification: google414fd2a08fff7a9d.html
-\ No newline at end of file
-+google-site-verification: google414fd2a08fff7a9d.html
-diff --git a/_pages/projects.md b/_pages/projects.md
-index 97716b8..3d69f67 100644
---- a/_pages/projects.md
-+++ b/_pages/projects.md
-@@ -2,7 +2,7 @@
- layout: page
- title: projects
- permalink: /projects/
--description: My current project and upcoming work. 
-+description: My current project and upcoming work.
- nav: true
- nav_order: 3
- display_categories: [work, fun]
-diff --git a/_pages/repositories.md b/_pages/repositories.md
-index 3a1322e..ea15bac 100644
---- a/_pages/repositories.md
-+++ b/_pages/repositories.md
-@@ -2,7 +2,7 @@
- layout: page
- permalink: /repositories/
- title: repositories
--description: My Github repositories available to the public. 
-+description: My Github repositories available to the public.
- nav: true
- nav_order: 4
++The traditional model of the Appalachian orogeny in New England attributes the majority of metamorphism and deformation in the region to the accretion of Avalon during the Acadian orogeny, with minimal impact from the accretion of Gondwana during the Alleghanian. Although Alleghanian-aged metamorphism has been recognized in southern New England (CT/RI), the nature of the Alleghanian metamorphism and deformation in central New England (MA) is not well constrained. My research, which was done in part at the [Boston College Center for Isotope Geochemistry](https://www.bc.edu/bc-web/research/sites/vice-provost-for-research/about/research-facilities/isotope-geochemistry.html), aims to better constrain extent and grade of Alleghanian metamorphism through garnet Sm-Nd geochronology, phase equilibria modeling, and QuiG Raman inclusion barometry.
+diff --git a/_projects/1_eejust.md b/_projects/1_eejust.md
+index 78e3ea4..1978167 100644
+--- a/_projects/1_eejust.md
++++ b/_projects/1_eejust.md
+@@ -7,4 +7,3 @@ importance: 1
+ redirect: https://students.dartmouth.edu/eejust/
+ # category: work
  ---
-diff --git a/_pages/teaching.md b/_pages/teaching.md
-index e99a4fd..c42fb4e 100644
---- a/_pages/teaching.md
-+++ b/_pages/teaching.md
-@@ -2,13 +2,12 @@
- layout: page
- permalink: /teaching/
- title: teaching
--description: Course materials from the classes that I have taught. 
-+description: Course materials from the classes that I have taught.
- nav: true
- nav_order: 6
- horizontal: false
- ---
- 
 -
- <!-- pages/projects.md -->
- <div class="teaching">
- {% if site.enable_project_categories and page.display_categories %}
-diff --git a/_projects/1_project.md b/_projects/1_project.md
-index 15e20db..8c54d2e 100644
---- a/_projects/1_project.md
-+++ b/_projects/1_project.md
-@@ -9,7 +9,6 @@ category: work
- related_publications: true
- ---
- 
--
- Every project has a feature showcase page.
- This package implements influencer's game environments and tools for MARL and adaptive-dynamics experiments, making it easy to probe opinion and influence dynamics across custom networked settings.
- 
-@@ -79,4 +78,4 @@ Here's the code for the last row of images above:
- </div>
- ```
- 
--{% endraw %}
-\ No newline at end of file
-+{% endraw %}
+diff --git a/diff.txt b/diff.txt
+index 1177378..a052cdd 100644
+--- a/diff.txt
++++ b/diff.txt
+@@ -1,147 +0,0 @@
+-diff --git a/_pages/about.md b/_pages/about.md
+-index 69e705a..1fdea25 100644
+---- a/_pages/about.md
+-+++ b/_pages/about.md
+-@@ -39,4 +39,4 @@ Combining insights from AI and game theory has major applications for AI–AI, h
+- 
+- Beyond research, I have thoroughly enjoyed teaching at Dartmouth. I design scalable, technology-enabled course frameworks and curricula that improve delivery and student experience. My teaching emphasizes clear learning objectives, reproducible assignments, and practical tools that make courses easier to run and extend. I have five years of TA experience across 12 courses at two institutions, and I have independently taught two courses on evolutionary game theory.
+- 
+--Outside of academics, I am a senior member of [Amifore Consulting and Management LLC](https://www.amifore.com/), a startup delivering ethical consulting solutions to emerging businesses. I work in AI and innovation consulting for clients internationally, including in Switzerland, implementing strategic project management systems and building AI-assisted workflows. This work has sharpened my sense of how AI research translates into practice, and of what responsible deployment actually asks of a small organization.
+-\ No newline at end of file
+-+Outside of academics, I am a senior member of [Amifore Consulting and Management LLC](https://www.amifore.com/), a startup delivering ethical consulting solutions to emerging businesses. I work in AI and innovation consulting for clients internationally, including in Switzerland, implementing strategic project management systems and building AI-assisted workflows. This work has sharpened my sense of how AI research translates into practice, and of what responsible deployment actually asks of a small organization.
+-diff --git a/diff.txt b/diff.txt
+-index 05933c7..e69de29 100644
+---- a/diff.txt
+-+++ b/diff.txt
+-@@ -1,131 +0,0 @@
+--diff --git a/_config.yml b/_config.yml
+--index f36ef57..b7d9181 100644
+----- a/_config.yml
+--+++ b/_config.yml
+--@@ -4,10 +4,10 @@
+-- 
+-- title: blank # the website title (if blank, full name will be used instead)
+-- first_name: Mark
+---middle_name: 
+--+middle_name:
+-- last_name: Lovett
+-- contact_note: >
+---  Reach out via email 
+--+  Reach out via email
+-- description: > # the ">" symbol means to ignore newlines until "footer_text:"
+--   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+-- footer_text: >
+--@@ -19,7 +19,7 @@ lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
+-- icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+-- 
+-- url: https://MarksLovett.github.io # the base hostname & protocol for your site
+---baseurl:  # the subpath of your site, e.g. /blog/. Leave blank for root
+--+baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
+-- last_updated: false # set to true if you want to display last updated in the footer
+-- impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
+-- back_to_top: true # set to false to disable the back to top button
+--@@ -73,7 +73,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
+-- 
+-- # For Google Analytics, see https://support.google.com/analytics/answer/10447272?hl=en&ref_topic=14088998&sjid=5129943941510317771-SA#zippy=%2Cgoogle-sites
+-- # and follow the instructions for Google Sites. You will need to create a Google Analytics property and copy the Google tag ID.
+---google_analytics: 'G-SS85HED103' # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
+--+google_analytics: "G-SS85HED103" # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
+-- cronitor_analytics: # cronitor RUM analytics site ID (format: XXXXXXXXX)
+-- pirsch_analytics: # your Pirsch analytics site ID (length 32 characters)
+-- openpanel_analytics: # your Openpanel analytics client ID (format: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX)
+--diff --git a/_pages/about.md b/_pages/about.md
+--index ec0b96d..f49627c 100644
+----- a/_pages/about.md
+--+++ b/_pages/about.md
+--@@ -28,15 +28,15 @@ latest_posts:
+-- 
+-- I am a Ph.D. candidate in applied mathematics at Dartmouth College, where I study game theory and artificial intelligence (AI). In my game-theory research I model social interactions by reducing complex networks to concise, tractable representations. These models help explain and predict phenomena across political science, AI, evolutionary ecology, and business. My game-theory work focuses on several related themes:
+-- 
+---- **Influence and allocation games.** Models of competition for limited resources in which players exert influence to secure them. My thesis introduces the [*influencer's game*](https://markslovett.github.io/InflGame/), in which each player's influence is centered on its position in space, so position itself becomes a strategy. Examples include political campaigns (candidates competing for votes) and platform competition for users; similar dynamics arise in machine-learning settings where agents compete for attention or data.
+--+- **Influence and allocation games.** Models of competition for limited resources in which players exert influence to secure them. My thesis introduces the [_influencer's game_](https://markslovett.github.io/InflGame/), in which each player's influence is centered on its position in space, so position itself becomes a strategy. Examples include political campaigns (candidates competing for votes) and platform competition for users; similar dynamics arise in machine-learning settings where agents compete for attention or data.
+-- - **Evolutionary game theory.** The study of how strategies evolve in populations. By reducing complex population dynamics to tractable mathematical models, evolutionary game theory yields accurate predictions of agent behavior and has applications in ecology (for example, [Tilman et al.](https://www.nature.com/articles/s41467-020-14531-6)), cooperation studies (for example, [Traulsen et al.](https://royalsocietypublishing.org/doi/full/10.1098/rstb.2021.0508)), decision making, and AI–human cooperation.
+-- 
+-- In AI, I study the incentive structures and learning environments that shape agent behavior: essentially, which "games" drive learning and why. I investigate how formally specified objectives influence learning dynamics and emergent strategies in both simulated and real-world settings, with most of my work in large language models and multi-agent reinforcement learning. The reason to characterize these games is safety rather than performance. Failure modes such as collusion, deception, and reward hacking are equilibrium properties rather than accidents of a particular training run, so an incentive-level account tells us which failures a system is being pushed toward before we have to catch them in evaluation.
+-- 
+-- This runs in two directions. On the reward-design side, I work with Elizaveta Tennant through the [MARS program](https://caish.org/mars) on moral alignment for LLM agents, extending her framework of explicitly specified intrinsic rewards ([paper](https://arxiv.org/abs/2410.01639)). On the oversight side, I work with [Soroush Vosoughi](https://www.cs.dartmouth.edu/~soroush/) on ensemble and router dynamics for language models, using the influencer's game as a lens on scalable oversight. <!-- TODO: link to the ensemble project once public -->
+-- 
+---Combining insights from AI and game theory has major applications for AI–AI, human–human, and especially human–AI interactions. I think this matters urgently. As systems become more capable and more autonomous, misalignment becomes harder to catch after the fact, and game theory is unusually well suited to the problem because it reasons about behavior through incentives. That lets us construct the equilibria we want rather than only measure the dispositions a trained model happens to arrive at. Two of my favorite cases for AI safety and game theory: Redwood Research on [the case for ensuring that powerful AIs are controlled](https://blog.redwoodresearch.org/p/the-case-for-ensuring-that-powerful) and the Cooperative AI Foundation's [multi-agent risks report](https://arxiv.org/abs/2502.14143);.. 
+--+Combining insights from AI and game theory has major applications for AI–AI, human–human, and especially human–AI interactions. I think this matters urgently. As systems become more capable and more autonomous, misalignment becomes harder to catch after the fact, and game theory is unusually well suited to the problem because it reasons about behavior through incentives. That lets us construct the equilibria we want rather than only measure the dispositions a trained model happens to arrive at. Two of my favorite cases for AI safety and game theory: Redwood Research on [the case for ensuring that powerful AIs are controlled](https://blog.redwoodresearch.org/p/the-case-for-ensuring-that-powerful) and the Cooperative AI Foundation's [multi-agent risks report](https://arxiv.org/abs/2502.14143);..
+-- 
+-- Beyond research, I have thoroughly enjoyed teaching at Dartmouth. I design scalable, technology-enabled course frameworks and curricula that improve delivery and student experience. My teaching emphasizes clear learning objectives, reproducible assignments, and practical tools that make courses easier to run and extend. I have five years of TA experience across 12 courses at two institutions, and I have independently taught two courses on evolutionary game theory.
+-- 
+---Outside of academics, I am a senior member of [Amifore Consulting and Management LLC](https://www.amifore.com/), a startup delivering ethical consulting solutions to emerging businesses. I work in AI and innovation consulting for clients internationally, including in Switzerland, implementing strategic project management systems and building AI-assisted workflows. This work has sharpened my sense of how AI research translates into practice, and of what responsible deployment actually asks of a small organization.
+--\ No newline at end of file
+--+Outside of academics, I am a senior member of [Amifore Consulting and Management LLC](https://www.amifore.com/), a startup delivering ethical consulting solutions to emerging businesses. I work in AI and innovation consulting for clients internationally, including in Switzerland, implementing strategic project management systems and building AI-assisted workflows. This work has sharpened my sense of how AI research translates into practice, and of what responsible deployment actually asks of a small organization.
+--diff --git a/_pages/google414fd2a08fff7a9d.html b/_pages/google414fd2a08fff7a9d.html
+--index a29c66e..934556c 100644
+----- a/_pages/google414fd2a08fff7a9d.html
+--+++ b/_pages/google414fd2a08fff7a9d.html
+--@@ -1 +1 @@
+---google-site-verification: google414fd2a08fff7a9d.html
+--\ No newline at end of file
+--+google-site-verification: google414fd2a08fff7a9d.html
+--diff --git a/_pages/projects.md b/_pages/projects.md
+--index 97716b8..3d69f67 100644
+----- a/_pages/projects.md
+--+++ b/_pages/projects.md
+--@@ -2,7 +2,7 @@
+-- layout: page
+-- title: projects
+-- permalink: /projects/
+---description: My current project and upcoming work. 
+--+description: My current project and upcoming work.
+-- nav: true
+-- nav_order: 3
+-- display_categories: [work, fun]
+--diff --git a/_pages/repositories.md b/_pages/repositories.md
+--index 3a1322e..ea15bac 100644
+----- a/_pages/repositories.md
+--+++ b/_pages/repositories.md
+--@@ -2,7 +2,7 @@
+-- layout: page
+-- permalink: /repositories/
+-- title: repositories
+---description: My Github repositories available to the public. 
+--+description: My Github repositories available to the public.
+-- nav: true
+-- nav_order: 4
+-- ---
+--diff --git a/_pages/teaching.md b/_pages/teaching.md
+--index e99a4fd..c42fb4e 100644
+----- a/_pages/teaching.md
+--+++ b/_pages/teaching.md
+--@@ -2,13 +2,12 @@
+-- layout: page
+-- permalink: /teaching/
+-- title: teaching
+---description: Course materials from the classes that I have taught. 
+--+description: Course materials from the classes that I have taught.
+-- nav: true
+-- nav_order: 6
+-- horizontal: false
+-- ---
+-- 
+---
+-- <!-- pages/projects.md -->
+-- <div class="teaching">
+-- {% if site.enable_project_categories and page.display_categories %}
+--diff --git a/_projects/1_project.md b/_projects/1_project.md
+--index 15e20db..8c54d2e 100644
+----- a/_projects/1_project.md
+--+++ b/_projects/1_project.md
+--@@ -9,7 +9,6 @@ category: work
+-- related_publications: true
+-- ---
+-- 
+---
+-- Every project has a feature showcase page.
+-- This package implements influencer's game environments and tools for MARL and adaptive-dynamics experiments, making it easy to probe opinion and influence dynamics across custom networked settings.
+-- 
+--@@ -79,4 +78,4 @@ Here's the code for the last row of images above:
+-- </div>
+-- ```
+-- 
+---{% endraw %}
+--\ No newline at end of file
+--+{% endraw %}
