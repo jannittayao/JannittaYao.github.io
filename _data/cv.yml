@@ -31,30 +31,30 @@
         - Researched metamorphic and tectonic history of the Nashoba terrane in MA and of New York City with Professor Adrian Castro
         - Assisted with department collections work
         - Provided class and field trip support for GEOS 203 (Earth Materials) and GEOS 317 (Igneous and Metamorphic Petrology)
-    - title: Undergraduate Researcher 
+    - title: Undergraduate Researcher
       institution: Wellesley College
       year: 08/2020 - 07/2021
       description:
-        - Modelled effects of overstepped garnet nucleation on subduction zone devolitization. 
+        - Modelled effects of overstepped garnet nucleation on subduction zone devolitization.
         - Used a combination of petrography and thermodynamic modelling to constrain P–T conditions of metamorphic events in the Nashoba Terrane, MA.
 
     - title: Peer Tutor
       institution: Wellesley College
       year: 08/2020-07/2021
-      description: 
+      description:
         - GEOS 101/102 (The Dynamic Earth)
         - CS 251 (Theory of Programming Languages)
 
     - title: Software Engineering Intern
       institution: Google
       year: 05/2020 - 08/2020
-      description: 
+      description:
         - Trained Tensorflow ML model to predict throughput for Youtube's edge streaming servers.
 
     - title: Undergraduate Research Assistant
       institution: MIT
       year: 02/2019-04/2020
-      description: 
+      description:
         - Created and refined a Julia-based biogeochemical model of plankton in the global oceans for the MIT Darwin Project.
 
 # - title: Open Source Projects
@@ -68,18 +68,18 @@
   type: time_table
   contents:
     - year: 2026
-      items: 
+      items:
         - John A. Ebers 1961 Memorial Prize - Outstanding Graduate TA
     - year: 2025
-      items: 
+      items:
         - AGeS3-Grad Geochronology Research Grant
         - GSA Graduate Research Grant 2025
     - year: 2024
-      items: 
+      items:
         - NSF Graduate Research Fellowship
         - GSA Robert D. Hatcher Research Award
     - year: 2022
-      items: 
+      items:
         - GSA MGPV Travel Grant
     - year: 2021
       items:
@@ -96,28 +96,27 @@
   contents:
     - title: GSA 2026
       items:
-      - <b>Yao, J.*</b>, Pansera, G., Castro, A.E., Brigham, J.M., Lee, A.S., Bista, D., Keller, C.B., Baxter, E.F., Strauss, J.V., New Constraints on Alleghanian (300 Ma) Amphibolite Facies Metamorphism in Central New England from Garnet Sm-Nd Petrochronology.
+        - <b>Yao, J.*</b>, Pansera, G., Castro, A.E., Brigham, J.M., Lee, A.S., Bista, D., Keller, C.B., Baxter, E.F., Strauss, J.V., New Constraints on Alleghanian (300 Ma) Amphibolite Facies Metamorphism in Central New England from Garnet Sm-Nd Petrochronology.
     - title: Goldschmidt 2026
-      items: 
-      - <b>Yao, J.*</b>, Keller, C.B., A Bayesian Approach to the Generation of Archean Continental Crust 
+      items:
+        - <b>Yao, J.*</b>, Keller, C.B., A Bayesian Approach to the Generation of Archean Continental Crust
     - title: GSA 2025
-      items: 
-      - <b>Yao, J.*</b>, Keller, C.B., The Petrogenesis of the 1.7 Ga Twilight Trondhjemite in the Needle Mountains, CO. (poster)
+      items:
+        - <b>Yao, J.*</b>, Keller, C.B., The Petrogenesis of the 1.7 Ga Twilight Trondhjemite in the Needle Mountains, CO. (poster)
     - title: GSA 2022
-      items: 
-      - <b>Yao, J.*</b>, Castro, A.E., Brunet, I.M., Roberts, N.M., Wolfe, O.M., Kuiper, Y.D., Hepburn, J.C. ”Barrovian” Metamorphism in the Nashoba Terrane - Evidence from Combined Phase Equilibria Modeling, Geothermobarometry, and Petrographic Analysis. (poster)
+      items:
+        - <b>Yao, J.*</b>, Castro, A.E., Brunet, I.M., Roberts, N.M., Wolfe, O.M., Kuiper, Y.D., Hepburn, J.C. ”Barrovian” Metamorphism in the Nashoba Terrane - Evidence from Combined Phase Equilibria Modeling, Geothermobarometry, and Petrographic Analysis. (poster)
     - title: NE-GSA 2021
       items:
-      - <b>Yao, J.*</b>, Castro, A.E., Kohn, M.J., Spear, F.S. Garnet nucleation overstepping - A potential mechanism for fluid production within the seismic-aseismic transition in subduction zones. (poster)
-
+        - <b>Yao, J.*</b>, Castro, A.E., Kohn, M.J., Spear, F.S. Garnet nucleation overstepping - A potential mechanism for fluid production within the seismic-aseismic transition in subduction zones. (poster)
 
 # - title: Academic Interests
 #   type: nested_list
 #   contents:
 #     - title: Computational Geochemistry
-#       items: 
+#       items:
 #         - Ch 1 of my dissertation involves the creation of an inverse Bayesian model that solves for the starting conditions of Archean continental crust.
-#         - I am a frequent contributor to <a href="https://github.com/brenhinkeller/StatGeochem.jl">StatGeochem.jl</a> 
+#         - I am a frequent contributor to <a href="https://github.com/brenhinkeller/StatGeochem.jl">StatGeochem.jl</a>
 #     - title: Thermodynamic Modeling
 #       items:
 #         - Extensive experience with thermodynamic forward models Perple_X and GIBBS
